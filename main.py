@@ -38,7 +38,7 @@ try:
                     stream = yt.streams.get_by_itag(248)
                 elif media == 'a':
                     stream = yt.streams.get_by_itag(249)
-            stream.download('/Users/akshatkhurana/Downloads')
+            stream.download('YOUR_PATH')
             print(f"Video saved to 'Downloads' folder as '{yt.title}'.")
         except IndexError:
             quit_program('no video link provided')
